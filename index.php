@@ -48,9 +48,13 @@
     </div>
 </nav>
 
-<div class="container mt-5">
+<div class="container mt-5 row">
     <?php require_once "logique.php"?>
     <?= $content ?>
+    <br>
+    <br>
+    <?= $contentPoulet ?>
+
 
 
 
