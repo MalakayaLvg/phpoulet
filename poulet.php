@@ -65,6 +65,7 @@ foreach ($platsPoulet as $plat){
 
 
 // ** DEVOIR **
+
 // faire un tuto pour installer nativement "mySQL" et installer "php myAdmin"
-// avec my admin creer une base de donnée et une table sql avec une clé primaire, c'est une clé primaire auto incrémenté, qui s'apelle id.
+// avec my admin creer une base de donnée (aller dans privilge et créer utilisateur) et une table sql avec une clé primaire, c'est une clé primaire auto incrémenté, qui s'apelle id.
 // Puis tuto php sur PDO, pour se connecter a une base de donnée et reussir à recuperer les infos.
