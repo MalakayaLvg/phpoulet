@@ -43,7 +43,7 @@ function platTemplate($plat){
                             <p class='card-text'>Accompagnement : $plat[accompagnement]</p>
                             <p class='card-text'>Sauce : $plat[sauce]</p>                          
                             <form action='' method='post'>
-                                <input type='button' value='GO' name='$plat[id]'>
+                                <input type='button' class='btn btn-success' name='detail'>GO</input>
                             </form>
                         </div>
                     </div>
@@ -53,6 +53,18 @@ function platTemplate($plat){
     return $template;
 }
 
+function platDetail (){
+    $template = "
+        <div class='container'>
+            <h5 class='card-title'>poulet</h5>
+            <p class='card-text'>Type : poulet type</p>
+            <p class='card-text'>Cuisson : poulet cuisson </p>
+            <p class='card-text'>Accompagnement : poulet accomp</p>
+            <p class='card-text'>Sauce : poulet sauce</p>
+        
+        </div>
+    ";
+}
 
 
  // $content = ???;
@@ -62,6 +74,8 @@ foreach ($platsPoulet as $plat){
 //    afficheUnPlat($plat);
 }
 //$content2 =
+
+
 
 
 // ** DEVOIR **

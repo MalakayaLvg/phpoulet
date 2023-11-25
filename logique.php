@@ -29,6 +29,8 @@ if(isset($_POST["username"])){
 }
 
 
+
+
 // logique de connection   $_POST etc etc
 
 //a la fin ,si la connection est acceptée,
@@ -42,6 +44,10 @@ if(!$isLoggedIn){
     require_once "poulet.php";
     $content = $content1;
     $contentPoulet = $content2;
+
+    if(isset($_POST["detail"])){
+        echo "click";
+}
 
 }
 
